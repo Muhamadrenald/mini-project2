@@ -74,3 +74,38 @@ body {
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
+
+/* Property Card Styles */
+.property-card {
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+/* Badge Styles */
+.badge {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: normal;
+}
+
+.badge i {
+  margin-right: 5px;
+}
